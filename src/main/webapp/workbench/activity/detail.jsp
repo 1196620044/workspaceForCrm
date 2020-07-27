@@ -129,6 +129,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 
 					"id":id,
 					"noteContent":$.trim($("#noteContent").val())
+
 				},
 				type:"post",
 				dataType:"json",
