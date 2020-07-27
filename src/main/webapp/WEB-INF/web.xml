@@ -51,6 +51,7 @@
     <url-pattern>/workbench/activity/delete.do</url-pattern>
     <url-pattern>/workbench/activity/getUerListAndActivity.do</url-pattern>
     <url-pattern>/workbench/activity/update.do</url-pattern>
+    <url-pattern>/workbench/activity/detail.do</url-pattern>
   </servlet-mapping>
 
 </web-app>
