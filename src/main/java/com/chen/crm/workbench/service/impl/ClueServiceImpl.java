@@ -1,5 +1,7 @@
 package com.chen.crm.workbench.service.impl;
 
+import com.chen.crm.utils.SqlSessionUtil;
+import com.chen.crm.workbench.dao.ClueDao;
 import com.chen.crm.workbench.service.ClueService;
 
 /**
@@ -8,4 +10,6 @@ import com.chen.crm.workbench.service.ClueService;
  * @Description:
  */
 public class ClueServiceImpl implements ClueService {
+
+    private ClueDao clueDao = SqlSessionUtil.getSqlSession().getMapper(ClueDao.class);
 }
